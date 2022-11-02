@@ -291,7 +291,7 @@ Binds that are replaced are:
     ("np" . fancy-narrow-to-page)
     ("ns" . org-fancy-narrow-to-subtree)
     ("nw" . fancy-widen))
-  :global t
+  :global nil
   :group 'fancy-narrow)
 
 (defface fancy-narrow-blocked-face
